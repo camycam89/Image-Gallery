@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:darkslategrey;
+}
+
+.gallery{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin:10px 0;
+}
+
+.gallery img{
+    flex-wrap:wrap;
+    width:320px;
+    height:300px;
+    margin:10px 0;
+}
